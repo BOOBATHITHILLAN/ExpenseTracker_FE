@@ -34,7 +34,7 @@ const Home = () => {
   const [loading, setLoading] = useState(false);
   const [transactions, setTransactions] = useState([]);
   const [refresh, setRefresh] = useState(false);
-  const [frequency, setFrequency] = useState("7");
+  const [frequency, setFrequency] = useState("all");
   const [type, setType] = useState("all");
   const [startDate, setStartDate] = useState(null);
   const [endDate, setEndDate] = useState(null);
