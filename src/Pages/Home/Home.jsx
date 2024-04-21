@@ -132,7 +132,7 @@ const Home = () => {
     setType("all");
     setStartDate(null);
     setEndDate(null);
-    setFrequency("7");
+    setFrequency("all");
   };
 
   useEffect(() => {
@@ -191,6 +191,7 @@ const Home = () => {
                     value={frequency}
                     onChange={handleChangeFrequency}
                   >
+                    <option value="all">All</option>
                     <option value="7">Last Week</option>
                     <option value="30">Last Month</option>
                     <option value="365">Last Year</option>
